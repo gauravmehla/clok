@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="45" fill="#10b981" stroke="#064e3b" stroke-width="4"/>
+  <circle cx="50" cy="50" r="35" fill="none" stroke="#064e3b" stroke-width="2"/>
+  <circle cx="50" cy="50" r="25" fill="#064e3b"/>
+  <text x="50" y="58" text-anchor="middle" font-family="Arial Black" font-size="24" fill="#10b981">♠</text>
+  <!-- Edge notches -->
+  <rect x="47" y="2" width="6" height="10" fill="#fff" rx="1"/>
+  <rect x="47" y="88" width="6" height="10" fill="#fff" rx="1"/>
+  <rect x="2" y="47" width="10" height="6" fill="#fff" rx="1"/>
+  <rect x="88" y="47" width="10" height="6" fill="#fff" rx="1"/>
+  <rect x="14" y="14" width="8" height="6" fill="#fff" rx="1" transform="rotate(45 18 17)"/>
+  <rect x="78" y="14" width="8" height="6" fill="#fff" rx="1" transform="rotate(-45 82 17)"/>
+  <rect x="14" y="80" width="8" height="6" fill="#fff" rx="1" transform="rotate(-45 18 83)"/>
+  <rect x="78" y="80" width="8" height="6" fill="#fff" rx="1" transform="rotate(45 82 83)"/>
+</svg>
+

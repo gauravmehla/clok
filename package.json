@@ -1,5 +1,6 @@
 {
-  "name": "pokerlab-timer",
+  "name": "cloc",
+  "homepage": "https://gauravmehla.github.io/cloc/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

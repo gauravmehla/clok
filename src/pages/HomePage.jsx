@@ -51,7 +51,7 @@ export default function HomePage() {
               <span className="text-white text-xl">♠</span>
             </div>
             <h1 className={`text-2xl font-bold ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
-              Poker Timer
+              Pokerlab Timer
             </h1>
           </div>
           

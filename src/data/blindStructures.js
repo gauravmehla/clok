@@ -58,9 +58,16 @@ export const blindStructurePresets = {
   },
   turbo: {
     name: 'Turbo',
-    description: '5-minute levels - Fast-paced action',
-    levelDuration: 5,
-    levels: createLevelsWithDuration(5, 20),
+    description: '15-minute levels - As seen in the screenshot',
+    levelDuration: 15,
+    levels: [
+      { smallBlind: 100, bigBlind: 200, ante: 0, duration: 900 },
+      { smallBlind: 200, bigBlind: 400, ante: 0, duration: 900 },
+      { smallBlind: 400, bigBlind: 800, ante: 0, duration: 900 },
+      { smallBlind: 800, bigBlind: 1600, ante: 0, duration: 900 },
+      { smallBlind: 1600, bigBlind: 3200, ante: 0, duration: 900 },
+      { smallBlind: 8000, bigBlind: 16000, ante: 0, duration: 900 },
+    ],
   },
 }
 
@@ -86,4 +93,3 @@ export function createCustomStructure(levels, name = 'Custom') {
 
 // Default structure
 export const defaultBlindStructure = blindStructurePresets.medium
-

@@ -70,7 +70,7 @@ export default function BlindDisplay({
             
             {currentLevel && (
               <div className="space-y-2">
-                <div className={`text-4xl sm:text-5xl font-bold font-mono ${
+                <div className={`text-4xl sm:text-5xl whitespace-nowrap font-bold font-mono ${
                   theme === 'dark' ? 'text-white' : 'text-gray-900'
                 }`}>
                   {formatNumber(currentLevel.smallBlind)} / {formatNumber(currentLevel.bigBlind)}
@@ -94,7 +94,7 @@ export default function BlindDisplay({
                 <span className={`text-sm ${theme === 'dark' ? 'text-gray-500' : 'text-gray-400'}`}>
                   Next:
                 </span>
-                <span className={`font-mono font-medium ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>
+                <span className={`font-mono font-medium whitespace-nowrap ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>
                   {formatNumber(nextLevel.smallBlind)} / {formatNumber(nextLevel.bigBlind)}
                   {nextLevel.ante > 0 && ` (Ante: ${formatNumber(nextLevel.ante)})`}
                 </span>
